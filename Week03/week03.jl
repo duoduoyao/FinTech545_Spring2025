@@ -275,10 +275,10 @@ vals, vecs = eigen(near_pairwise)
 
 tv = sum(vals)
 #Keep values 2:5
-vals = vals[3:5]
-vecs = vecs[:,3:5]
+vals = vals[2:5]
+vecs = vecs[:,2:5]
 B = vecs * diagm(sqrt.(vals))
-r = (B * randn(3,100_000_000))'
+r = (B * randn(4,100_000_000))'
 cov(r)
 
 

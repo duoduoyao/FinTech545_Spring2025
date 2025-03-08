@@ -264,7 +264,7 @@ print_results(ar1)
 
 
 #MA1
-#y_t = 1.0 + .05*e_t-1 + e, e ~ N(0,.01)
+#y_t = 1.0 + .5*e_t-1 + e, e ~ N(0,.01)
 n = 1000
 burn_in = 50
 y = Vector{Float64}(undef,n)
