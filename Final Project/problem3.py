@@ -1,3 +1,6 @@
+# The file name is misleading. This file is actually used for problem 4.
+# It implemented NIG and T class.
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
